@@ -1,4 +1,5 @@
 import java.util.List;
+import java.lang.String;
 
 
 //import java.util.ArrayList;
@@ -16,6 +17,7 @@ public class AnimalHotel
 {
     // instance variables - replace the example below with your own
     private ArrayList<Animal> guests; // a container for thing objects
+    private String name;
 
     /**
      * Constructor for objects of class AnimalHotel
@@ -24,6 +26,8 @@ public class AnimalHotel
     {
         // initialise instance variables
         guests = new ArrayList<Animal>();
+        
+        
     }
 
     /** 
@@ -53,5 +57,13 @@ public class AnimalHotel
             }
         }
     }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 }

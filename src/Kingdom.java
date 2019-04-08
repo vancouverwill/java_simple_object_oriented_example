@@ -17,6 +17,8 @@ public class Kingdom {
 		hotel.acceptNewGuest(adelaide);
 		
 		hotel.printGuestInformation();
+		
+//		hotel.setName(name)
 	}
 
 }
